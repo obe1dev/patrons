@@ -6,7 +6,6 @@ export const ActionTypes = [
   'LOGOUT',
 ];
 
-
 export default ActionTypes.reduce(
   (accumulator, type) => ({
     ...accumulator,
